@@ -1,0 +1,21 @@
+# Local config
+/config/db.local.php
+*.log
+
+# Uploads (keep folder but ignore contents)
+/uploads/avatars/*
+!/uploads/avatars/.gitkeep
+
+# OS files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# Backups
+*.bak
+*.sql.bak
